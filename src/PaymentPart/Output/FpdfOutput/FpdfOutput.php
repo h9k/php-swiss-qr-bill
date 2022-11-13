@@ -22,7 +22,7 @@ final class FpdfOutput extends AbstractOutput implements OutputInterface
     private const ALIGN_LEFT = 'L';
     private const ALIGN_RIGHT = 'R';
     private const ALIGN_CENTER = 'C';
-    private const FONT = 'Helvetica';
+    private const FONT = 'freesans';
 
     // Location
     private const CURRENCY_AMOUNT_Y = 259.3;

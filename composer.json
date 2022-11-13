@@ -1,5 +1,5 @@
 {
-    "name": "sprain/swiss-qr-bill",
+    "name": "bluerabbit/swiss-qr-bill",
     "description": "A PHP library to create Swiss QR bills",
     "type": "library",
     "license": "MIT",

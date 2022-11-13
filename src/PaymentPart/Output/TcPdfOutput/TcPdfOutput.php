@@ -21,7 +21,7 @@ final class TcPdfOutput extends AbstractOutput implements OutputInterface
     private const ALIGN_LEFT = 'L';
     private const ALIGN_RIGHT = 'R';
     private const ALIGN_CENTER = 'C';
-    private const FONT = 'Helvetica';
+    private const FONT = 'freesans';
 
     // Ratio
     private const LEFT_CELL_HEIGHT_RATIO_COMMON = 1.2;

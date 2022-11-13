@@ -139,7 +139,7 @@ final class StructuredAddress implements AddressInterface, SelfValidatableInterf
             }
         }
 
-        if (in_array($this->getCountry(), ['CH', 'FL'])) {
+        if ('CH' === $this->getCountry()) {
             $address .= sprintf("\n%s %s", $this->getPostalCode(), $this->getCity());
         } else {
             $address .= sprintf("\n%s-%s %s", $this->getCountry(), $this->getPostalCode(), $this->getCity());
